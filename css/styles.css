@@ -473,7 +473,6 @@ color: var(--WHITE, #FFF);
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
   min-height: 584px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -482,6 +481,7 @@ color: var(--WHITE, #FFF);
   width: 408px;
   border-radius: 4px;
   background: var(--DAIRY, #FCFCFC);
+  transform: translate(-50%,-50%) scale(1);
 }
  
 .close {
@@ -606,7 +606,7 @@ color: #8e8f99;
   fill: transparent;
   margin-right: 8px;
 }
-.modal-form-chechbox:checked + .icon-form-checkbox {
+.icon-form-checkbox:checked {
   border: none;
   fill: #F4F4FD;
   background-color: #404bbf;
