@@ -481,7 +481,7 @@ color: var(--WHITE, #FFF);
   width: 408px;
   border-radius: 4px;
   background: var(--DAIRY, #FCFCFC);
-  transform: translate(-50%,-50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
  
 .close {
@@ -529,7 +529,6 @@ color: var(--WHITE, #FFF);
 }
 .form-label {
   display: block;
-  /* cursor: pointer; */
     color: var(--LIGHT-SLATE, #8E8F99);
     font-size: 12px;
     line-height: 1.17;
@@ -552,7 +551,7 @@ color: var(--WHITE, #FFF);
 .modal-form-input-comment:hover,
 .modal-form-input-comment:focus {
 border-color: #4D5AE5;
-fill: #4D5AE5;;
+fill: #4D5AE5;
 }
 .modal-form-position {
   position: relative;
@@ -606,7 +605,7 @@ color: #8e8f99;
   fill: transparent;
   margin-right: 8px;
 }
-.icon-form-checkbox:checked {
+.modal-form-chechbox:checked + .icon-form-checkbox {
   border: none;
   fill: #F4F4FD;
   background-color: #404bbf;
