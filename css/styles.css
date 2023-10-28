@@ -604,8 +604,9 @@ color: #8e8f99;
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+  cursor: pointer;
 }
-.modal-form-chechbox:checked + .icon-form-checkbox {
+input:checked + label > span {
   border: none;
   fill: #F4F4FD;
   background-color: #404bbf;
