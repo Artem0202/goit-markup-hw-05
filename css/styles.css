@@ -487,7 +487,7 @@ color: var(--WHITE, #FFF);
   width: 408px;
   border-radius: 4px;
   background: var(--DAIRY, #FCFCFC);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
 }
  
 .close {
@@ -612,7 +612,7 @@ color: #8e8f99;
   margin-right: 8px;
   cursor: pointer;
 }
-input:checked + label > .icon-form-checkbox {
+input:checked + label > span {
   border: none;
   fill: #F4F4FD;
   background-color: #404bbf;
