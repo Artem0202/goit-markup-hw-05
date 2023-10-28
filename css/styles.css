@@ -463,8 +463,7 @@ color: var(--WHITE, #FFF);
 
 /* ======================================= MODAL =======================================  */
 
-.modal {
-  display: none;
+.is-open {
   position: fixed;
   z-index: 1;
   left: 0;
